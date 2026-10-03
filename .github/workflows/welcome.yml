@@ -6,7 +6,7 @@ permissions:
   pull-requests: write
 
 jobs:
-  welcome:
+  vally:
     name: Post welcome comment
     runs-on: ubuntu-latest
     steps:
