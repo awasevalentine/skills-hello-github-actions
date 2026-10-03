@@ -2,11 +2,11 @@ name: Post welcome comment
 on:
   pull_request:
     types: [opened]
-permissions:
+permissions: 
   pull-requests: write
 
 jobs:
-  vally:
+  valloo:
     name: Post welcome comment
     runs-on: ubuntu-latest
     steps:
